@@ -1,25 +1,58 @@
 .divLogin {
     left:50%;
     top:50%;
-    margin-left:-100px;
-    margin-top:-50px; 
+    margin-left:-108px;
+    margin-top:-72px; 
     position:absolute;
-    width:200px;    
-    height:100px; 
-   background-color:cadetblue;
-   padding: 10px;
-   border-radius: 5px;
-}
-.divBotao{
+    width:220px;    
+    height:130px; 
+    background-color: transparent;
+    padding: 10px;
     border-radius: 5px;
-    border: 5px;
-    padding: 3px;
-    margin-top: 5px;
+    font-family: Arial;
+    color: white;
+    
+    
+
+
 }
+
 body{
-    background-color: darkgray;
-    background-image: url(https://cdn.discordapp.com/attachments/822127089565302847/892434162492014592/Se.png) ;
-    background-position: center;
-    background-repeat: no-repeat;
- 
+    background-image: url(https://s2.glbimg.com/Jg88y4yRZV2YiqlXf_cWDMJZoPI=/e.glbimg.com/og/ed/f/original/2019/12/03/stars-1246590_1920.jpg);
+  
+}   
+input{
+    margin: 8px;
+    border-radius: 4px;
+    border: 3.5px;
+    border-color:black;
+    border-style:outset;
+    font-size: 15;
+
+}  
+
+    
+.img{
+
+    left:50%;
+    top:50%;
+    margin-left:520px;
+    margin-top:220px; 
+    width: 30%;
+    
 }
+
+button{
+
+    border: 3.5px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    border-radius: 8px;
+    width: 70%;
+    margin-left: 23.5px;
+    margin-bottom: 3px;
+    font-size: 15;
+    cursor: pointer;
+}
+
