@@ -1,46 +1,19 @@
-
 <html>
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <table class="tabela">
-            <tr>
-                <td>
-                    <input type="text" size="20" placeholder="Digite seu nome">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" size="20" placeholder="Digite seu sobrenome">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="email" size="20" placeholder="Digite seu email">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="text" size="20" placeholder="Digite seu usuário">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="password" size="20" placeholder="Digite sua senha">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="password" size="20" placeholder="Confirme sua senha">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button onclick="cadastrar()">Cadastrar</button>
-                </td>
-            </tr>
-        </table>
+        <div id="divPagina">
+            <div class="div-cadastro">
+                <input type="text" size="20" placeholder="Digite seu nome"> <br>
+                <input type="text" size="20" placeholder="Digite seu sobrenome"> <br>
+                <input type="email" size="20" placeholder="Digite seu email"> <br>
+                <input type="text" size="20" placeholder="Digite seu usuário"> <br>
+                <input type="password" size="20" placeholder="Digite sua senha"> <br>
+                <input type="password" size="20" placeholder="Confirme sua senha"> <br>
+                <button onclick="cadastrar()">Cadastrar</button>
+            </div>
+        </div>        
     </body>
 </html>
