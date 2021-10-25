@@ -1,58 +1,108 @@
+#divPagina{
+height: 100%;
+width: 100%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyj_tx40mK2-OpR0yAxZyGZkL7KDQWDehsKw&usqp=CAU);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
 .divLogin {
-    left:50%;
-    top:50%;
-    margin-left:-108px;
-    margin-top:-72px; 
-    position:absolute;
-    width:220px;    
-    height:130px; 
-    background-color: transparent;
-    padding: 10px;
-    border-radius: 5px;
-    font-family: Arial;
-    color: white;
+    width:330px;    
+    height:280px;
+    border-radius: 10px; 
+    background-size: 150px;
+    background-color:white
     
+}
+.divTxt {
+
+    display: inline-block;
+    width:330px;    
+    height:280px; 
+    border-radius: 10px;
+    background-color: lightblue
     
-
-
 }
 
 body{
-    background-image: url(https://s2.glbimg.com/Jg88y4yRZV2YiqlXf_cWDMJZoPI=/e.glbimg.com/og/ed/f/original/2019/12/03/stars-1246590_1920.jpg);
-  
-}   
-input{
-    margin: 8px;
-    border-radius: 4px;
-    border: 3.5px;
-    border-color:black;
-    border-style:outset;
-    font-size: 15;
 
-}  
+    margin: 0px;
+    background-color:white
 
-    
-.img{
-
-    left:50%;
-    top:50%;
-    margin-left:520px;
-    margin-top:220px; 
-    width: 30%;
-    
 }
+    
+.imgBorboleta{
+    width: 70px;
+    padding-top: 80px;
+    padding-left: 130px;
+}
+::placeholder{
 
+    color: black;
+}
 button{
 
-    border: 3.5px;
-    border-color: black;
-    border-style: solid;
-    background-color: white;
-    border-radius: 8px;
-    width: 70%;
-    margin-left: 23.5px;
-    margin-bottom: 3px;
-    font-size: 15;
+    width: 300px;
+    margin-top: 30px;
+    background-color: lightblue;
     cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20;
+    margin-left: 15px;
+    border-width: 3px;
+    border-color: black;
+    
 }
 
+button:hover{
+    background-color: deepskyblue;
+}
+
+
+input{
+    width: 300px;
+    border-width: 3px;
+    border-color: black;
+    background-color: lightblue;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20;
+    padding: 3px;
+}
+h2{
+    color: black;
+    font-family:'Arial Narrow';
+    font-size: 25;
+    text-align: center;
+}
+h3{
+    color: black;
+    font-family:'Arial Narrow';
+    font-size: 23;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+h4{
+    color: black;
+    font-family:'Arial Narrow';
+    font-size: 18;
+    text-align: center;
+}
+a{
+    color: black;
+    font-family:'Arial Narrow';
+    font-size: 18;
+    padding-left: 106.5px;
+}
