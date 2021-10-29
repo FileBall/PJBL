@@ -1,0 +1,71 @@
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilosTP.css">
+    <script src="https://kit.fontawesome.com/9cc6e78aef.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">WEB PSIQUÊ</a></li>
+        <li><a href="#">Suporte</a></li>
+            <li><a href="#">Marcar Consultas</a>
+                 <ul>
+                        <li><a href="#">Consulta Online</a></li>
+                        <li><a href="#">Consulta Presencial</a></li>
+                 </ul>
+          </li>
+        <li><a href="#">Trabalhe Conosco</a></li>
+        <li><a href="#">Contatos</a></li>
+    </ul>
+    </nav>
+
+    <div  class="Chat">
+      <h2> Seus CHATS </h2> <br><br>
+
+      <div class="divIcone"> <i class="fas fa-child Icone"></i> 
+      Mário
+      <i class="fas fa-circle botaoOnline"></i> <br> <br>
+      </div>
+
+      <div class="divIcone"> <i class="fas fa-child Icone"></i> 
+      Letícia
+      <i class="fas fa-circle botaoOffline"></i> <br> <br>
+      </div>
+
+    
+    </div>
+
+    <div class="MiniAvaliacao">
+     <h1>Sobre Você</h1> <br><br>
+      <h5>Nós da Web Psiquê nos importamos com você e seu bem estar, por isso preparamos uma mini avaliação para sabermos mais sobre você e o que está sentindo.</h5>
+      <br><br><br>
+      <button class="botaoMiniAvaliacao" onclick="">Fazer a Mini Avaliação</button>
+    </div>
+
+    <div class="avaliacoes">
+      <h3> Avalie-nos! </h3> <br> <br>
+      <textarea class="textoEscrever" cols="30" rows="10" placeholder="Escreva aqui o que você está sentindo ou uma sugestão!"></textarea>
+      <button  class="botaoAvaliacao"> Mandar </button>
+    </div>
+
+    <div class="controleRemedios">
+      <nav>
+        <ul>
+          <li class="remedios">Bem Vindo Fulano! <br> <br>
+            Não esqueça de tomar seus remédios eles, <br>
+            são importantes para sua recuperação.
+          </li>
+
+          <li class="remedios">Aqui estão os horários dos seus remédios: <br> <br>  
+          Paracetamol 8/8 Horas; <br>
+          Dorflex 12/12 Horas.
+          </li>
+          <img src="imagens/borboleta" class="imgBorboleta">
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
