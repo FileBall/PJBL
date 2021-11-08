@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/estilosTelaConsultaPresencial.css">
+        <script type="text/javascript" src="../js/scriptsConsultaPre.js"></script>
+        <script src="https://kit.fontawesome.com/9cc6e78aef.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <i onclick="location.href='telaPrincipal.html'" class="fas fa-arrow-left flechaVoltar"></i>
+        <div class="divInput">
+            <h1>Disponibilizar Nova Consulta Online</h1>
+            <div id="divPsicologo" class="divPsicologo">
+                <input id="inputNome" type="text" placeholder="Insira o nome do psicólogo">
+                <label>Nome inválido</label>
+            </div>
+            <div id="divEmail" class="divEmail">
+                <input id="inputEmail" type="text" placeholder="Insira o email para contato">
+                <label>Email inválido</label>
+            </div>
+            <div id="divHorario" class="divHorario">
+                <input id="inputHorario" type="text" placeholder="Insira a data da consulta(dd/mm/aaaa hh:mm)">
+                <label>Horário inválido</label>
+            </div>
+            <div id="divEndereco" class="divEndereco">
+                <input id="inputEndereco" type="text" placeholder="Insira o endereço da consulta">
+                <label>Endereço inválido</label>
+            </div>
+            <div id="divPreco" class="divPreco">
+                <input id="inputPreco" type="text" placeholder="Insira o valor da consulta (ex:R$100,00)">
+                <label>Preço inválido</label>
+            </div>
+            <button class="botaoDisp" onclick="CriarConsulta()">Disponibilizar</button>
+        </div>
+        <div id="divConsultas">
+            
+        </div>
+    </body>
+</html>
