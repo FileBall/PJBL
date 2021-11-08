@@ -1,0 +1,65 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmJlc3QubGl2ZS53YWxscGFwZXIuYmFja2dyb3VuZHMuaGQudGhlbWUuZ2lybHkud2FsbHBhcGVycy5pbWFnZXMubHdwLnBpbmsubGl2ZS53YWxscGFwZXJfc2NyZWVuXzEwXzE1NTIxNzc2MDNfMDk0/screen-10.jpg?fakeurl=1&type=.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.perguntas{
+   
+    font-family: sans-serif;
+    font: bold;
+    font-size: 15;
+    text-align: center;
+    width: 270px;
+    height: 140px;
+    float: left;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightcyan;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+    padding: 5px;
+
+}
+.respostas{
+    margin-top: 20%;
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightcyan;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font: bold;
+    color: white;
+}
+.botaoMandar{
+    position: relative;
+    width: 300px;
+    height: 70px;
+    margin-top: 45px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+.flechaVoltar{
+    font-size: 25;
+    padding-left: 25px;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+}
