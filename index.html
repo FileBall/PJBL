@@ -4,7 +4,7 @@
         <meta charset="utf-8">
 
         <link rel="stylesheet" href="css/estilos.css">
-        
+        <script type="text/javascript" src="js/scripts.js"></script>
 
     </head>
     <body>
@@ -14,16 +14,18 @@
                <h2> WEB PSIQUÊ </h2>
                <h3> Seja Bem Vindo !</h3>
                <h4> Não Possui Cadastro? </h4>
-               <a href=""> Cadastre-se Aqui ! </a>
+               <button class="botaoTelaCadastro"  onclick="location.href='paginas/telaCadastro.html'"> Cadastre-se Aqui !</button>
             </div>        
             <div class="divLogin">
                 
-                <input type="text" placeholder="Usuário:">
-                <input type="password" placeholder="Senha:"> 
+                <input id="loginUsuario" type="text" placeholder="Usuário:" maxlength="25">
+                <p1 id="mensagemLoginUsuario">Nome de usuário incorreto</p1>
+                <input id="loginSenha" type="password" placeholder="Senha:" maxlength="25"> 
+                <p2 id="mensagemLoginSenha">Senha incorreta</p2>
                 <br> 
-                <button> Login </button>
+                <button class="botaoLogin" onclick="LoginTelaPrincipal()"> Login </button>
                 <br>
-                <img src="imagens/download.jfif" class="imgBorboleta">
+                <img src="imagens/borboleta.png" class="imgBorboleta">
                  
             </div>     
               
