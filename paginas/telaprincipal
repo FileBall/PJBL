@@ -2,38 +2,80 @@
   <head>
 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/estilosTP.css">
+    <link rel="stylesheet" href="../css/estilosTP.css">
     <script src="https://kit.fontawesome.com/9cc6e78aef.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/scripts.js"></script>
 
   </head>
   <body>
+    <i onclick="location.href='../index.html'" class="fas fa-arrow-left flechaVoltar"></i>
     <nav>
       <ul class="menu">
-        <li class="logo"><a href="#">WEB PSIQUÊ</a></li>
-        <li><a href="#">Suporte</a></li>
-            <li><a href="#">Marcar Consultas</a>
+        <li><a1 href="#" class="logo">WEB PSIQUÊ</a1></li>
+        <li><a href="#" class="botaoSuporte" onclick="location.href='telaSuporte.html'">Suporte</a></li>
+            <li><a2 href="#">Marcar Consultas</a2>
                  <ul>
-                        <li><a href="#">Consulta Online</a></li>
-                        <li><a href="#">Consulta Presencial</a></li>
+                        <li><a href="#" class="botaoConsultaOn" onclick="location.href='telaConsultaOn.html'">Consulta Online</a></li>
+                        <li><a href="#" class="botaoConsultaPresencial" onclick="location.href='telaConsultaPresencial.html'">Consulta Presencial</a></li>
                  </ul>
           </li>
-        <li><a href="#">Trabalhe Conosco</a></li>
-        <li><a href="#">Contatos</a></li>
+          <li><a2 href="#">Contatos Web Psiquê</a2>
+            <ul>
+                   <li><a2 href="#" class="botaoNumeros">(54) 987654321</a></li>
+                   <li><a2 href="#" class="botaoNumeros">(47) 123456789</a></li>
+            </ul>
+     </li>
+     <li><a2 href="#" >Trabalhe Conosco</a2>
+      <ul class="botaoEmail">
+             <li><a2 href="#" class="botaoEmail"> trabalhecomweb@outlook.com </a></li>
+      </ul>
+        
+        
     </ul>
-    </nav>
+  </nav>
+  <div id="chatMario" class="divPopupChat">
+    <button onclick="fecharMario()" class="botaoFecharChat"> <i class="fas fa-times-circle"></i> </button>
+    <div class="cabecalhoChat">
+      
+        <h5>Mário <i class="fas fa-circle botaoOnlineChatMario"></i> </h5>
+    </div>
+    
+    <input class="mensagemChat" type="text"> 
+
+    <button class="enviarMensagem">  <i class="fas fa-paper-plane " ></i></button>
+
+    
+  </div>
+
+  <div id="chatLeticia" class="divPopupChat">
+    <button onclick="fecharLeticia()" class="botaoFecharChat"> <i class="fas fa-times-circle"></i> </button>
+    <div class="cabecalhoChat">
+      
+        <h5>Letícia <i class="fas fa-circle botaoOnlineChatLeticia"></i> </h5>
+    </div>
+    
+    <input class="mensagemChat" type="text"> 
+
+    <button class="enviarMensagem">  <i class="fas fa-paper-plane " ></i></button>
+
+    
+  </div>
 
     <div  class="Chat">
       <h2> Seus CHATS </h2> <br><br>
 
-      <div class="divIcone"> <i class="fas fa-child Icone"></i> 
-      Mário
-      <i class="fas fa-circle botaoOnline"></i> <br> <br>
-      </div>
+    <button onclick="abrirMario()" class="divIcone">
 
-      <div class="divIcone"> <i class="fas fa-child Icone"></i> 
+      <i class="fas fa-child Icone"></i> 
+        Mário
+      <i class="fas fa-circle botaoOnline"></i> 
+    
+    </button>
+
+      <button onclick="abrirLeticia()" class="divIcone"> <i class="fas fa-child Icone"></i> 
       Letícia
-      <i class="fas fa-circle botaoOffline"></i> <br> <br>
-      </div>
+      <i class="fas fa-circle botaoOffline"></i> 
+      </button>
 
     
     </div>
@@ -42,13 +84,13 @@
      <h1>Sobre Você</h1> <br><br>
       <h5>Nós da Web Psiquê nos importamos com você e seu bem estar, por isso preparamos uma mini avaliação para sabermos mais sobre você e o que está sentindo.</h5>
       <br><br><br>
-      <button class="botaoMiniAvaliacao" onclick="">Fazer a Mini Avaliação</button>
+      <button class="botaoMiniAvaliacao" onclick="location.href='telaAvaliacao.html'">Fazer a Mini Avaliação</button>
     </div>
 
     <div class="avaliacoes">
       <h3> Avalie-nos! </h3> <br> <br>
-      <textarea class="textoEscrever" cols="30" rows="10" placeholder="Escreva aqui o que você está sentindo ou uma sugestão!"></textarea>
-      <button  class="botaoAvaliacao"> Mandar </button>
+      <textarea id="caixaTexto" class="textoEscrever" cols="30" rows="10" placeholder="Escreva aqui o que você está sentindo ou uma sugestão!"></textarea>
+      <button  class="botaoAvaliacao" onclick="ApagarTexto()"> Mandar </button>
     </div>
 
     <div class="controleRemedios">
@@ -63,9 +105,10 @@
           Paracetamol 8/8 Horas; <br>
           Dorflex 12/12 Horas.
           </li>
-          <img src="imagens/borboleta" class="imgBorboleta">
+          <img src="https://cdn.discordapp.com/attachments/822127007688294420/907305949952360489/borboleta.png" class="imgBorboleta">
         </ul>
       </nav>
     </div>
   </body>
 </html>
+
