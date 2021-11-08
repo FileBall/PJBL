@@ -1,0 +1,197 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    background-image: url(https://img.freepik.com/fotos-gratis/gradiente-de-rosa-pastel-degrade-foto-abstrata-desfocada-linhas-suaves-cor-de-fundo_49683-4158.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.divInput{
+    border: solid 1px black;
+    padding: 15px;
+    margin: 50px 10px 10px 10px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 5px;
+    width: 300px;
+    height: 265px;
+    float: left;
+}
+
+h1{
+    font-size: 16px;
+    cursor: default;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.divPsicologo{
+    background-color: white;
+    padding: 8px;
+    margin: 20px 5px 5px 5px;
+    border-radius: 4px;
+}
+
+.divEmail{
+    background-color: white;
+    padding: 8px;
+    margin: 15px 5px 5px 5px;
+    border-radius: 4px;
+}
+
+.divHorario{
+    background-color: white;
+    padding: 8px;
+    margin: 15px 5px 5px 5px;
+    border-radius: 4px;
+}
+
+.divPreco{
+    background-color: white;
+    padding: 8px;
+    margin: 15px 5px 5px 5px;
+    border-radius: 4px;
+}
+
+.botaoDisp{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 2px;
+    border: none;
+    background-color:lightgreen;
+}
+
+.botaoDisp:hover{
+    cursor: pointer;
+    background-color:green;
+}
+
+.divCard{
+    border: solid 1px black;
+    margin: 50px 10px 10px 10px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 5px;
+    width: 330px;
+    height: 295px;
+    float: left;
+}
+.divMarcar{
+    background-color: lightgreen;
+    height: 53px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 33.5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.divMarcar label{
+    font-size: 28;
+}
+
+.divCardPsicologo{
+    margin-top: 40px;
+    font-size: 20;
+}
+
+.divCardEmail{
+    margin-top: 20px;
+    font-size: 18;
+}
+
+.divCardHorario{
+    margin-top: 20px;
+    font-size: 18;
+}
+
+.divCardPreco{
+    margin-top: 20px;
+    font-size: 20;
+}
+
+.divMarcar:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+.divMarcar label:hover{
+    cursor:pointer;
+}
+
+.consultaMarcada{
+    background-color: green;
+    font-size: 28;
+}
+
+.divPsicologo.inputErro label{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -275px;
+    font-size: 10;
+    color:red;
+}
+
+.divEmail.inputErro label{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -275px;
+    font-size: 10;
+    color:red;
+}
+
+.divHorario.inputErro label{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -275px;
+    font-size: 10;
+    color:red;
+}
+
+.divPreco.inputErro label{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -275px;
+    font-size: 10;
+    color:red;
+}
+
+.divPsicologo:not(.inputErro) label{
+    display: none;
+}
+
+.divEmail:not(.inputErro) label{
+    display: none;
+}
+
+.divHorario:not(.inputErro) label{
+    display: none;
+}
+
+.divPreco:not(.inputErro) label{
+    display: none;
+}
+
+.divPsicologo.inputErro{
+    border:solid 1px red;
+}
+
+.divEmail.inputErro{
+    border:solid 1px red;
+}
+
+.divHorario.inputErro{
+    border:solid 1px red;
+}
+
+.divPreco.inputErro{
+    border:solid 1px red;
+}
