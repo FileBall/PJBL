@@ -1,34 +1,34 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../css/estilosCadastro.css">
+        <link rel="stylesheet" href="../css/estilosTelaConsultaOn.css">
         <script type="text/javascript" src="../js/scripts.js"></script>
+        <script src="https://kit.fontawesome.com/9cc6e78aef.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div id="divPagina">
-            <div class="divTxt">
-                <h2> WEB PSIQUÊ </h2>
-                <h3> Vamos fazer o seu cadastro ! </h3>
-                <h4> Insira todos os dados pedidos para completar o cadastro </h4>
-                <h4> Tenha certeza de inserir todos os dados corretamente </h4>
-                <button class="botaoVoltar" onclick="location.href='../index.html'"> Voltar para a tela de login </button>
+        <i onclick="location.href='telaPrincipal.html'" class="fas fa-arrow-left flechaVoltar"></i>
+        <div class="divInput">
+            <h1>Disponibilizar Nova Consulta Online</h1>
+            <div id="divPsicologo" class="divPsicologo">
+                <input id="inputNome" type="text" placeholder="Insira o nome do psicólogo">
+                <label>Nome inválido</label>
             </div>
-            <div class="divCadastro">
-                <input id="cadastroNome" type="text" size="20" placeholder="Digite seu nome" maxlength="25"> <br>
-                <p1 id="mensagemNome">Nome inválido, o nome deve ter no mínimo 2 digitos</p1>
-                <input id="cadastroSobrenome" type="text" size="20" placeholder="Digite seu sobrenome" maxlength="25"> <br>
-                <p2 id="mensagemSobrenome">Sobrenome inválido, o sobrenome deve ter pelo menos 2 digitos</p2>
-                <input id="cadastroEmail" type="email" size="20" placeholder="Digite seu email" maxlength="30"> <br>
-                <p3 id="mensagemEmail">Email inválido, digite um email válido</p3>
-                <input id="cadastroUsuario" type="text" size="20" placeholder="Digite seu usuário" maxlength="25"> <br>
-                <p4 id="mensagemUsuario">Nome de usuário inválido, digite um usuário com no minimo 5 digitos</p4>
-                <input id="cadastroSenha" type="password" size="20" placeholder="Digite sua senha" maxlength="25"> <br>
-                <p5 id="mensagemSenha">Senha inválida, a senha deverá possuir no mínimo 8 digitos</p5>
-                <input id="cadastroConfirmarSenha" type="password" size="20" placeholder="Confirme sua senha" maxlength="25"> <br>
-                <p6 id="mensagemConfirmarSenha">Senha incorreta, digite a mesma senha que a anterior</p6>
-                <button onclick="Cadastrar()" class="botaoCadastrar">Cadastrar</button>
-                <img src="../imagens/borboleta.png" class="imgBorboleta">
+            <div id="divEmail" class="divEmail">
+                <input id="inputEmail" type="text" placeholder="Insira o email para contato">
+                <label>Email inválido</label>
             </div>
-        </div>        
+            <div id="divHorario" class="divHorario">
+                <input id="inputHorario" type="text" placeholder="Insira a data da consulta(dd/mm/aaaa hh:mm)">
+                <label>Horário inválido</label>
+            </div>
+            <div id="divPreco" class="divPreco">
+                <input id="inputPreco" type="text" placeholder="Insira o valor da consulta (ex:R$100,00)">
+                <label>Preço inválido</label>
+            </div>
+            <button class="botaoDisp" onclick="CriarConsulta()">Disponibilizar</button>
+        </div>
+        <div id="divConsultas">
+            
+        </div>
     </body>
 </html>
