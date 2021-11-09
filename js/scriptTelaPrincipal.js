@@ -1,7 +1,7 @@
 function ApagarTexto(){
     document.getElementById("caixaTexto").value = "";
     alert ("Sua mensagem foi enviada!");
-
+}
 function abrirMario(){
 
     document.getElementById("chatMario").style.display = "block";
@@ -18,4 +18,4 @@ function fecharLeticia(){
 
     document.getElementById("chatLeticia").style.display = "none";
 }
-function apagarElementos(){
+
